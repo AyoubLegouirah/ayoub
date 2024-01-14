@@ -5,17 +5,14 @@ import {CgFileDocument} from "react-icons/cg";
 
 const  ProjectBox = ({projectPhoto, projectName}) => {
   const desc = {
-    RogFreeDesc : "A website that shows you over seven specialized yoga postures for specific diseases or health problems. This was a group project made in a team of two for a 36-hour-long online hackathon named Hackodisha 2.0.",
-    RogFreeGithub : "https://github.com/DevanshSahni/Rog-Free",
-    RogFreeWebsite : "https://devanshsahni.github.io/Rog-Free/",
+    GetflixDesc : "Quadra propose une expérience cinématographique immersive avec une page d'accueil attrayante. Connectez-vous pour découvrir un film vedette changeant dynamiquement. Ajoutez des films à votre liste de souhaits, choisissez entre l'abonnement standard (2 films/mois) et le premium (accès à tous les films). Profitez de Quadra pour une expérience cinéphile exceptionnelle.",
+    GetflixWebsite : "https://cryptobel.org/quadra/",
 
-    NewsletterDesc:"A newsletter signup site made using Mailchimp API where the signups can be monitored from the MailChimp account. This project was made to understand API integration, environment variables and vercel deployment.",
-    NewsletterGithub:"",
-    NewsletterWebsite:"https://newsletter-signup-teal.vercel.app/",
+    DragonClickerDesc:"Dragon Clicker propose une aventure où chaque clic sur l'œuf de dragon accumule des œufs pour débloquer des bonus. Les joueurs collectent des œufs pour acheter des améliorations et boosters, avec une transformation visuelle unique de l'œuf central à chaque palier de points.",
+    DragonClickerWebsite:"https://justindr96.github.io/dragon_clicker/",
     
-    WigglesDesc:"An innovative pet management web app enabling pet parents to create unique pet IDs, securely store and share vaccination records, and generate QR codes for pet profiles, enhancing safety.",
-    WigglesGithub:"https://github.com/DevanshSahni/Wiggles",
-    WigglesWebsite:"https://wiggles.vercel.app/",
+    MaverickDesc:"Maverick offre une expérience aérienne unique avec son site épuré. Réservez des séances d'essai d'avions de chasse avec des pilotes expérimentés. Personnalisez votre vol et choisissez parmi différentes options. Connectez-vous pour explorer les offres exclusives. Vivez l'adrénaline de Maverick avec des vols d'essai exceptionnels.",
+    MaverickWebsite:"",
   }
 
   let show ='';
@@ -25,17 +22,13 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
     
   return (
     <div className='projectBox'> 
-        <img className='projectPhoto' src={projectPhoto} alt="Project display" /> 
+        <img className='projectPhoto' src={projectPhoto} alt="Project display"  /> 
         <div>
             <br />
             <h3>{projectName}</h3>
             <br />
             {desc[projectName + 'Desc']}
             <br />
-
-            <a style={{display:show}} href={desc[projectName + 'Github']} target='_blank'>
-              <button className='projectbtn'><FaGithub/> Github</button>
-            </a>
 
             <a href={desc[projectName + 'Website']} target='_blank'>
               <button className='projectbtn'><CgFileDocument/> Demo</button>

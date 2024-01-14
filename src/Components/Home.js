@@ -28,7 +28,7 @@ const Home = () => {
         <div className='AboutText'>
           <h1 className='AboutTextHeading'><b>Introduction</b></h1>
           <p>
-            Mon parcours m'a permis de maîtriser des langages tels que <b>HTML, CSS, PHP et MySQL,</b> et je suis également familier avec les technologies modernes telles que <b>React et TypeScript.</b> Mon expérience s'étend également à l'utilisation de <b>Sass</b> pour améliorer le style de mes projets.
+            Mon parcours m'a permis de maîtriser des langages tels que <b>HTML, CSS, PHP et MySQL,</b> et je suis également familier avec la technologie moderne telle que <b>React.</b> Mon expérience s'étend également à l'utilisation de <b>Sass</b> pour améliorer le style de mes projets.
             <br /><br />
             Je cherche des <b>opportunités professionnelles</b> qui me permettront de mettre en pratique mes connaissances variées et de contribuer de manière significative à des projets stimulants. <b>En constante évolution,</b> je suis ouvert à l'apprentissage continu et à l'exploration de <b>nouvelles technologies</b> pour enrichir mes compétences.
             <CiCoffeeCup style={{ scale: "1.5", rotate: "15deg" }} />
