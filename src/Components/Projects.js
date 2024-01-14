@@ -13,8 +13,8 @@ const Projects = () => {
       <h1 className='projectHeading'>Mes <b>Projets</b></h1>
       <div className='project'>
         <ProjectBox projectPhoto={Oeuf} projectName="DragonClicker" />
-        <ProjectBox projectPhoto={Netflix} projectName="Getflix"  />
         <ProjectBox projectPhoto={Maverick} projectName="Maverick" />
+        <ProjectBox projectPhoto={Netflix} projectName="Getflix"  />
       </div>
 
     </div>
