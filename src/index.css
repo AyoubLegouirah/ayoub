@@ -3,7 +3,7 @@
   src:
     url('Mona-Sans.woff2') format('woff2 supports variations'),
     url('Mona-Sans.woff2') format('woff2-variations');
-    font-weight: 300; /* Changer le poids de la police, par exemple 400 pour régulier */
+    font-weight: 400; /* Changer le poids de la police, par exemple 400 pour régulier */
     font-style: normal; /* Changer le style de la police (normal ou italic) */
     font-stretch: 100%;
 }
@@ -35,7 +35,7 @@ body {
   font-family: 'Mona Sans';
   color: #000000;
   min-height: 100vh;
-  background-color: #EDE5DF;
+  background-color: #EDD8C9;
 
 }
 
