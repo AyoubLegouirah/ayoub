@@ -1,24 +1,29 @@
 import React from 'react';
-import { Zoom } from 'react-reveal';
+import { motion } from 'framer-motion'; // Importez motion depuis framer-motion
 import ProjectBox from './ProjectBox';
 import Netflix from '../images/netflix.png';
 import Oeuf from '../images/Oeuf.png';
 import Maverick from '../images/Maverick.png';
 
 const Projects = () => {
+  const zoom = {
+    hidden: { scale: 0.8, opacity: 0 },
+    visible: { scale: 1, opacity: 1 },
+  };
+
   return (
     <div>
       <h1 className='projectHeading'>Mes <b>Projets</b></h1>
       <div className='project'>
-        <Zoom>
+        <motion.div initial="hidden" animate="visible" variants={zoom}>
           <ProjectBox projectPhoto={Oeuf} projectName="DragonClicker" />
-        </Zoom>
-        <Zoom>
+        </motion.div>
+        <motion.div initial="hidden" animate="visible" variants={zoom}>
           <ProjectBox projectPhoto={Maverick} projectName="Maverick" />
-        </Zoom>
-        <Zoom>
+        </motion.div>
+        <motion.div initial="hidden" animate="visible" variants={zoom}>
           <ProjectBox projectPhoto={Netflix} projectName="Getflix" />
-        </Zoom>
+        </motion.div>
       </div>
     </div>
   );

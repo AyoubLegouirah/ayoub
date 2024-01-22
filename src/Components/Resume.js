@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { BsDownload } from "react-icons/bs";
-import { Zoom } from 'react-reveal';
+import { motion } from 'framer-motion'; // Importez motion depuis framer-motion
 import pdf from "../AyoubLegouirah.pdf";
 import { Document, Page, pdfjs } from 'react-pdf';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
@@ -17,8 +17,13 @@ const Resume = () => {
   window.addEventListener("load", handleResize);
   window.addEventListener("resize", handleResize);
 
+  const zoom = {
+    hidden: { scale: 0.8, opacity: 0 },
+    visible: { scale: 1, opacity: 1 },
+  };
+
   return (
-    <Zoom>
+    <motion.div initial="hidden" animate="visible" variants={zoom}>
       <div className='ResumePage'>
         <Document file={pdf} className="resumeview">
           <Page pageNumber={1} scale={wid < 700 ? (wid > 475 ? 0.7 : 0.5) : 1} />
@@ -30,7 +35,7 @@ const Resume = () => {
           </button>
         </a>
       </div>
-    </Zoom>
+    </motion.div>
   )
 }
 

@@ -1,16 +1,25 @@
 import React from 'react';
 import Typed from "./Typed.js";
 import Tilt from 'react-parallax-tilt';
-import { Fade } from 'react-reveal';
+import { motion } from 'framer-motion'; // Importez motion depuis framer-motion
 import { CiCoffeeCup } from "react-icons/ci";
 import Avatar from '../images/Ayoub.png';
 import Avatar1 from '../images/AyoubFirst.png';
 
-
 const Home = () => {
+  const fadeLeft = {
+    hidden: { opacity: 0, x: -100 },
+    visible: { opacity: 1, x: 0 },
+  };
+
+  const fadeRight = {
+    hidden: { opacity: 0, x: 100 },
+    visible: { opacity: 1, x: 0 },
+  };
+
   return (
     <div>
-      <Fade left>
+      <motion.div initial="hidden" animate="visible" variants={fadeLeft}>
         <div className='HomePage'>
           <div className='HomeText'>
             <h1>Hello there !</h1>
@@ -21,9 +30,9 @@ const Home = () => {
             <img className='Avatar' src={Avatar} style={{ width: '300px', height: 'auto' }} alt="" />
           </Tilt>
         </div>
-      </Fade>
+      </motion.div>
 
-      <Fade right>
+      <motion.div initial="hidden" animate="visible" variants={fadeRight}>
         <div className='AboutPage'>
           <div className='AboutText'>
             <h1 className='AboutTextHeading'><b>Introduction</b></h1>
@@ -38,10 +47,9 @@ const Home = () => {
             <img className='Avatar' src={Avatar1} alt="" />
           </Tilt>
         </div>
-      </Fade>
+      </motion.div>
     </div>
   );
 }
 
 export default Home;
-
