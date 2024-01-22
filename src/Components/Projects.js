@@ -7,8 +7,8 @@ import Maverick from '../images/Maverick.png';
 
 const Projects = () => {
   const zoom = {
-    hidden: { scale: 0.8, opacity: 0 },
-    visible: { scale: 1, opacity: 1 },
+    hidden: { scale: 0.8, opacity: 0 , transition: { duration: 1 }},
+    visible: { scale: 1, opacity: 1, transition: { duration: 1 } },
   };
 
   return (

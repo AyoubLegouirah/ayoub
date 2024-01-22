@@ -9,13 +9,14 @@ import Avatar1 from '../images/AyoubFirst.png';
 const Home = () => {
   const fadeLeft = {
     hidden: { opacity: 0, x: -100 },
-    visible: { opacity: 1, x: 0 },
+    visible: { opacity: 1, x: 0, transition: { duration: 1 } }, // Réduisez la durée de transition à 0.5 secondes ou à la valeur que vous préférez
   };
-
+  
   const fadeRight = {
     hidden: { opacity: 0, x: 100 },
-    visible: { opacity: 1, x: 0 },
+    visible: { opacity: 1, x: 0, transition: { duration: 1 } }, // Réduisez la durée de transition à 0.5 secondes ou à la valeur que vous préférez
   };
+  
 
   return (
     <div>
