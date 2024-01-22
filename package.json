@@ -2,18 +2,14 @@
   "name": "ayoub",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "14.x",
-    "npm": "7.x"
-  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "gsap": "^3.12.5",
     "lottie-react": "^2.4.0",
-    "react": "^16.14.0", 
-    "react-dom": "^16.14.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-icons": "^4.9.0",
     "react-parallax-tilt": "^1.7.151",
     "react-pdf": "^7.1.2",
