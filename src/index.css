@@ -35,9 +35,10 @@ body {
   font-family: 'Mona Sans';
   color: #000000;
   min-height: 100vh;
-  background-color: #EDD8C9;
+  background-color: #EDE5DF;
 
 }
+
 
 b {
   font-weight: 900;
@@ -51,14 +52,25 @@ b {
 }
 
 ::-webkit-scrollbar-track {
-  background: #274656;
+  background: #EDE5DF; 
   border-radius: 100px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #01111a;
+  background: #682e6e;
   border-radius: 100px;
 }
+
+
+::-webkit-scrollbar-corner {
+  background: #EDE5DF;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #795b3d;
+}
+
 
 /* Background */
 .bg {
@@ -86,14 +98,16 @@ b {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   position: fixed;
   width: 100%;
   z-index: 2;
-
   height: 70px;
   top: 0;
-  transition: all 0.7s;
+  transition: transform 0.3s ease; /* Ajout de la transition */
+}
+
+.Navbar.hide {
+  transform: translateY(-100%);
 }
 
 .blur {
@@ -105,7 +119,7 @@ b {
   font-size: 32px;
   letter-spacing: 2px;
   padding-left: 7%;
-  color: #682E6E;
+  color: #682e6e;
   display: flex;
   align-items: center;
   text-align: center;
@@ -127,7 +141,7 @@ b {
 }
 
 .NavbarLinks a {
-  color: #795B3D;
+  color: #795b3d;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -136,15 +150,14 @@ b {
   padding: 2px 7px;
   letter-spacing: 0.5px;
   text-decoration: none;
-
 }
 
 .NavbarLinks a:hover {
-  color: #682E6E;
+  color: #682e6e;
 }
 
 .NavbarLinks a::after {
-  background-color: #682E6E;
+  background-color: #682e6e;
   content: "";
   position: absolute;
   height: 3px;

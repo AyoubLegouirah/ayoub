@@ -1,4 +1,5 @@
 import React from 'react';
+import { Zoom } from 'react-reveal';
 import ProjectBox from './ProjectBox';
 import Netflix from '../images/netflix.png';
 import Oeuf from '../images/Oeuf.png';
@@ -9,13 +10,18 @@ const Projects = () => {
     <div>
       <h1 className='projectHeading'>Mes <b>Projets</b></h1>
       <div className='project'>
-        <ProjectBox projectPhoto={Oeuf} projectName="DragonClicker" />
-        <ProjectBox projectPhoto={Maverick} projectName="Maverick" />
-        <ProjectBox projectPhoto={Netflix} projectName="Getflix"  />
+        <Zoom>
+          <ProjectBox projectPhoto={Oeuf} projectName="DragonClicker" />
+        </Zoom>
+        <Zoom>
+          <ProjectBox projectPhoto={Maverick} projectName="Maverick" />
+        </Zoom>
+        <Zoom>
+          <ProjectBox projectPhoto={Netflix} projectName="Getflix" />
+        </Zoom>
       </div>
-
     </div>
-  )
+  );
 }
 
-export default Projects
+export default Projects;
