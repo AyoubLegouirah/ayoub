@@ -7,12 +7,12 @@ import Avatar2 from '../images/Ayoub2.png';
 const About = () => {
   const fadeLeft = {
     hidden: { opacity: 0, x: -100 },
-    visible: { opacity: 1, x: 0, transition: { duration: 1 } }, // Réduisez la durée de transition à 0.5 secondes ou à la valeur que vous préférez
+    visible: { opacity: 1, x: 0, transition: { duration: 1.5 } }, // Réduisez la durée de transition à 0.5 secondes ou à la valeur que vous préférez
   };
   
   const fadeRight = {
     hidden: { opacity: 0, x: 100 },
-    visible: { opacity: 1, x: 0, transition: { duration: 1 } }, // Réduisez la durée de transition à 0.5 secondes ou à la valeur que vous préférez
+    visible: { opacity: 1, x: 0, transition: { duration: 3 } }, // Réduisez la durée de transition à 0.5 secondes ou à la valeur que vous préférez
   };
 
   return (

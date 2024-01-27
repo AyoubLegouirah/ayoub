@@ -11,7 +11,7 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
     DragonClickerDesc:"Dragon Clicker propose une aventure où chaque clic sur l'œuf de dragon accumule des œufs pour débloquer des bonus. Les joueurs collectent des œufs pour acheter des améliorations et boosters, avec une transformation visuelle unique de l'œuf central à chaque palier de points.",
     DragonClickerWebsite:"https://ayoublegouirah.github.io/dragon_clicker/",
     
-    MaverickDesc:"Maverick offre une expérience aérienne unique avec son site épuré. Réservez des séances d'essai d'avions de chasse avec des pilotes expérimentés. Personnalisez votre vol et choisissez parmi différentes options. Connectez-vous pour explorer les offres exclusives. Vivez l'adrénaline de Maverick avec des vols d'essai exceptionnels.",
+    MaverickDesc:"Maverick offre une expérience aérienne unique avec son site épuré. Réservez des séances d'essai d'avions de chasse avec des pilotes expérimentés. Personnalisez votre vol et choisissez parmi différentes options. Vivez l'adrénaline de Maverick avec des vols d'essai exceptionnels.",
     MaverickWebsite:"",
   }
 
