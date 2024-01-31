@@ -7,6 +7,7 @@ import { SiExpress, SiMongodb, SiPostman, SiVercel } from "react-icons/si";
 const Skills = ({ skill }) => {
   const icon = {
     'C++': <CgCPlusPlus />,
+    Python: <FaPython />,
     Postman: <SiPostman />,
     React: <FaReact />,
     Javascript: <DiJavascript1 />,

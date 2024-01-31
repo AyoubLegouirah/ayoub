@@ -12,7 +12,7 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
     DragonClickerWebsite:"https://ayoublegouirah.github.io/dragon_clicker/",
     
     MaverickDesc:"Maverick offre une expérience aérienne unique avec son site épuré. Réservez des séances d'essai d'avions de chasse avec des pilotes expérimentés. Personnalisez votre vol et choisissez parmi différentes options. Vivez l'adrénaline de Maverick avec des vols d'essai exceptionnels.",
-    MaverickWebsite:"",
+    MaverickWebsite:"https://maverick-khaki.vercel.app/",
   }
 
   let show ='';

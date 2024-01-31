@@ -35,7 +35,7 @@ const About = () => {
       </motion.div>
 
       <motion.div initial="hidden" animate="visible" variants={fadeRight}>
-        <h1 className='SkillsHeading'>Framework</h1>
+        <h1 className='SkillsHeading'>Framework et langages </h1>
         <div className='skills'>
           <Skills skill='HTML' />
           <Skills skill='CSS' />
@@ -46,7 +46,9 @@ const About = () => {
           <Skills skill='React' />
           <Skills skill='Git' />
           <Skills skill='Github' />
-          <Skills skill='Bootstrap' />        
+          <Skills skill='Bootstrap' />    
+          <Skills skill='Python' />  
+          <Skills skill='Postman' />
         </div>
       </motion.div>
     </>
