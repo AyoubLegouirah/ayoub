@@ -59,22 +59,22 @@ const Nav = () => {
             <ul className='NavbarLinks'>
                 <li onClick={hideMenu}>
                     <Link to='/'>
-                        <AiOutlineHome /> Home
+                        <AiOutlineHome /> Accueil
                     </Link>
                 </li>
                 <li onClick={hideMenu}>
                     <Link to='/About'>
-                        <BsPerson /> About
+                        <BsPerson /> À propos 
                     </Link>
                 </li>
                 <li onClick={hideMenu}>
                     <Link to='/Project'>
-                        <BsCodeSlash /> Project
+                        <BsCodeSlash /> Projet
                     </Link>
                 </li>
                 <li onClick={hideMenu}>
                     <Link to='/Resume'>
-                        <CgFileDocument /> Resume
+                        <CgFileDocument /> Résumé
                     </Link>
                 </li>
             </ul>
