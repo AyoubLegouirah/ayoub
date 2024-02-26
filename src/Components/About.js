@@ -40,15 +40,22 @@ const About = () => {
           <Skills skill='HTML' />
           <Skills skill='CSS' />
           <Skills skill='Javascript' />
-          <Skills skill='MySQL' />
-          <Skills skill='PHP' />
+          <Skills skill='TypeScript' />
           <Skills skill='Sass' />
           <Skills skill='React' />
-          <Skills skill='Git' />
-          <Skills skill='Github' />
-          <Skills skill='Bootstrap' />    
+          <Skills skill='Angular' />
+          <Skills skill='Bootstrap' /> 
+          <Skills skill='Tailwind' /> 
+          <Skills skill='MySQL' />
+          <Skills skill='PHP' />
           <Skills skill='Python' />  
+          <Skills skill='CSharp' />
           <Skills skill='Postman' />
+          <Skills skill='Vercel' />
+          <Skills skill='Git' />
+          <Skills skill='Github' />  
+          <Skills skill='Npm' />
+          <Skills skill='Figma' />
         </div>
       </motion.div>
     </>

@@ -1,12 +1,12 @@
 import React from 'react';
 import { CgCPlusPlus } from "react-icons/cg";
-import { FaReact, FaPython, FaGitAlt, FaGithub, FaNpm, FaFigma, FaBootstrap, FaPhp, FaDatabase, FaSass,FaHtml5, FaCss3 } from "react-icons/fa";
+import { FaReact, FaPython, FaGitAlt, FaGithub, FaNpm, FaFigma, FaBootstrap, FaPhp, FaDatabase, FaSass, FaHtml5, FaCss3 } from "react-icons/fa";
 import { DiNodejs, DiJavascript1 } from "react-icons/di";
-import { SiExpress, SiMongodb, SiPostman, SiVercel } from "react-icons/si";
+import { SiExpress, SiMongodb, SiPostman, SiVercel, SiTailwindcss } from "react-icons/si"; // Ajout de Tailwind CSS
+import { SiTypescript, SiAngular, SiCsharp } from "react-icons/si"; // Ajout de TypeScript et Angular
 
 const Skills = ({ skill }) => {
   const icon = {
-    'C++': <CgCPlusPlus />,
     Python: <FaPython />,
     Postman: <SiPostman />,
     React: <FaReact />,
@@ -24,6 +24,12 @@ const Skills = ({ skill }) => {
     Sass: <FaSass />,  
     HTML: <FaHtml5 />,  
     CSS: <FaCss3 />, 
+    CSharp: <SiCsharp />, // Ajout de C#
+    TypeScript: <SiTypescript />, // Ajout de TypeScript
+    Angular: <SiAngular />, // Ajout d'Angular
+    Vercel: <SiVercel />, // Ajout de Vercel
+    Tailwind: <SiTailwindcss />, // Ajout de Tailwind CSS
+    DotNet: <CgCPlusPlus />, // Ajout de .NET
   };
 
   return (
