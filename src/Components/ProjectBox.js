@@ -5,8 +5,8 @@ import {CgFileDocument} from "react-icons/cg";
 
 const  ProjectBox = ({projectPhoto, projectName}) => {
   const desc = {
-    GetflixDesc : "Quadra propose une expérience cinématographique immersive avec une page d'accueil attrayante. Connectez-vous pour découvrir un film vedette changeant dynamiquement. Ajoutez des films à votre liste de souhaits, choisissez entre l'abonnement standard (2 films/mois) et le premium (accès à tous les films). Profitez de Quadra pour une expérience cinéphile exceptionnelle.",
-    GetflixWebsite : "https://cryptobel.org/quadra/",
+    GetflixDesc : "Quadra propose une expérience cinématographique immersive avec une page d'accueil attrayante. Connectez-vous pour découvrir un film vedette changeant dynamiquement. Ajoutez des films à votre liste de souhaits, choisissez entre l'abonnement standard (2 films/mois) et le premium (accès à tous les films).",
+    GetflixWebsite : "https://soscrypto.be/quadra/",
 
     DragonClickerDesc:"Dragon Clicker propose une aventure où chaque clic sur l'œuf de dragon accumule des œufs pour débloquer des bonus. Les joueurs collectent des œufs pour acheter des améliorations et boosters, avec une transformation visuelle unique de l'œuf central à chaque palier de points.",
     DragonClickerWebsite:"https://ayoublegouirah.github.io/dragon_clicker/",
