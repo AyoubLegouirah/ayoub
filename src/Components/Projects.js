@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion'; // Importez motion depuis framer-motion
 import ProjectBox from './ProjectBox';
-import Netflix from '../images/netflix.png';
+import Netflix from '../images/Getflix.png';
 import Oeuf from '../images/Oeuf.png';
 import Maverick from '../images/Maverick.png';
 
