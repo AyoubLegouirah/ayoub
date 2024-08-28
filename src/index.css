@@ -3,8 +3,8 @@
   src:
     url('Mona-Sans.woff2') format('woff2 supports variations'),
     url('Mona-Sans.woff2') format('woff2-variations');
-    font-weight: 400; /* Changer le poids de la police, par exemple 400 pour régulier */
-    font-style: normal; /* Changer le style de la police (normal ou italic) */
+    font-weight: 400;
+    font-style: normal;
     font-stretch: 100%;
 }
 
@@ -19,8 +19,7 @@
   position: relative;
   overflow-x: hidden;
   -webkit-tap-highlight-color: transparent;
-  background-color: #EDE5DF;
-
+  background-color: #F0F4F8;
 }
 
 .loader {
@@ -28,21 +27,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #EDE5DF;
+  background-color: #F0F4F8;
 }
 
 body {
   font-family: 'Mona Sans';
-  color: #000000;
+  color: #2D3748;
   min-height: 100vh;
-  background-color: #EDE5DF;
-
+  background-color: #F0F4F8;
 }
-
 
 b {
   font-weight: 900;
-  color: #682E6E;
+  color: #4A90E2;
 }
 
 /* Scrollbar */
@@ -52,25 +49,22 @@ b {
 }
 
 ::-webkit-scrollbar-track {
-  background: #EDE5DF; 
+  background: #F0F4F8; 
   border-radius: 100px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #682e6e;
+  background: #4A90E2;
   border-radius: 100px;
 }
 
-
 ::-webkit-scrollbar-corner {
-  background: #EDE5DF;
+  background: #F0F4F8;
 }
-
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #795b3d;
+  background: #48BB78;
 }
-
 
 /* Background */
 .bg {
@@ -91,9 +85,7 @@ b {
   top: -30px;
 }
 
-
 /* NAVBAR */
-
 .Navbar {
   display: flex;
   justify-content: space-between;
@@ -103,7 +95,7 @@ b {
   z-index: 2;
   height: 70px;
   top: 0;
-  transition: transform 0.3s ease; /* Ajout de la transition */
+  transition: transform 0.3s ease;
 }
 
 .Navbar.hide {
@@ -119,7 +111,7 @@ b {
   font-size: 32px;
   letter-spacing: 2px;
   padding-left: 7%;
-  color: #682e6e;
+  color: #4A90E2;
   display: flex;
   align-items: center;
   text-align: center;
@@ -141,7 +133,7 @@ b {
 }
 
 .NavbarLinks a {
-  color: #795b3d;
+  color: #4A90E2;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -153,11 +145,11 @@ b {
 }
 
 .NavbarLinks a:hover {
-  color: #682e6e;
+  color: #E53E3E;
 }
 
 .NavbarLinks a::after {
-  background-color: #682e6e;
+  background-color: #4A90E2;
   content: "";
   position: absolute;
   height: 3px;
@@ -189,7 +181,7 @@ b {
     position: fixed;
     inset: 0 0 0 50%;
     gap: 50px;
-    background-color: #431f47;
+    background-color: #2D3748;
     height: 100vh;
     padding-top: max(20%, 120px);
     transform: translateX(100%);
@@ -210,7 +202,7 @@ b {
 
   .bar {
     display: block;
-    background-color: #795B3D;
+    background-color: #4A90E2;
     border-radius: 50px;
     height: 2.5px;
     width: 30px;
@@ -235,12 +227,9 @@ b {
     rotate: 225deg;
     transition: 0.5s;
   }
-
 }
 
-
 /* HOME PAGE */
-
 .HomePage {
   display: flex;
   justify-content: space-evenly;
@@ -314,9 +303,7 @@ b {
   }
 }
 
-
 /* ABOUT */
-
 .AboutPage {
   display: flex;
   justify-content: space-evenly;
@@ -341,7 +328,7 @@ b {
 }
 
 .AboutText a {
-  color: #682E6E;
+  color: #4A90E2;
   text-decoration: underline;
   font-weight: bold;
 }
@@ -391,7 +378,7 @@ b {
   align-items: center;
   justify-content: center;
   margin: 0px 25px 25px 0px;
-  border: 3px solid #431f47;
+  border: 3px solid #2D3748;
   font-size: 64px;
   border-radius: 5px;
   transition: 0.5s;
@@ -399,7 +386,7 @@ b {
 
 .SkillBox:hover {
   transform: scale(1.2);
-  box-shadow: 0 2px 8px 0 #431f47;
+  box-shadow: 0 2px 8px 0 #2D3748;
 }
 
 .SkillsHeading {
@@ -430,9 +417,7 @@ b {
   }
 }
 
-
 /* Project */
-
 .projectHeading {
   text-align: center;
   padding: 75px 0;
@@ -450,7 +435,7 @@ b {
 
 .projectBox {
   width: 350px;
-  border: 3px solid #431f47;
+  border: 3px solid #2D3748;
   border-radius: 5px;
   text-align: center;
   padding: 15px;
@@ -464,7 +449,7 @@ b {
 
 .projectBox:hover {
   transform: scale(1.05);
-  box-shadow: 0 4px 10px 0 #431f47;
+  box-shadow: 0 4px 10px 0 #2D3748;
 }
 
 .projectPhoto {
@@ -481,7 +466,7 @@ b {
   width: 40%;
   margin: 25px 3% 0;
   border-radius: 5px;
-  background-color: #431f47;
+  background-color: #2D3748;
   color: #E7E7E7;
   height: 30px;
   cursor: pointer;
@@ -489,9 +474,7 @@ b {
   border-style: none;
 }
 
-
 /* Resume */
-
 .ResumePage {
   padding-top: 50px;
   width: fit-content;
@@ -509,7 +492,7 @@ b {
   margin: 25px 0px;
   width: 200px;
   height: 40px;
-  background-color: #431f47;
+  background-color: #2D3748;
   color: #E7E7E7;
   text-decoration: none;
   border-radius: 5px;
@@ -520,12 +503,10 @@ b {
 .downloadCV:hover {
   transition: all 0.5s;
   background-color: #E7E7E7;
-  color: #431f47;
+  color: #2D3748;
 }
 
-
 /* FOOTER */
-
 footer {
   width: 90%;
   height: 40px;
