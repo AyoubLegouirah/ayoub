@@ -37,25 +37,32 @@ const About = () => {
       <motion.div initial="hidden" animate="visible" variants={fadeRight}>
         <h1 className='SkillsHeading'>Framework et langages </h1>
         <div className='skills'>
+          {/* Langages de programmation */}
           <Skills skill='HTML' />
           <Skills skill='CSS' />
           <Skills skill='Javascript' />
           <Skills skill='TypeScript' />
-          <Skills skill='Sass' />
+          <Skills skill='Java' />
+          
+          {/* Frameworks et bibliothèques */}
           <Skills skill='React' />
           <Skills skill='Angular' />
           <Skills skill='Bootstrap' /> 
-          <Skills skill='Tailwind' /> 
+          <Skills skill='Tailwind' />
+          <Skills skill='SpringBoot' />
+          <Skills skill='Hibernate' />
+
+          {/* Bases de données */}
           <Skills skill='MySQL' />
-          <Skills skill='PHP' />
-          <Skills skill='Python' />  
-          <Skills skill='CSharp' />
-          <Skills skill='Postman' />
-          <Skills skill='Vercel' />
+          <Skills skill='PostgreSQL' />
+          
+          {/* Outils de développement */}
           <Skills skill='Git' />
           <Skills skill='Github' />  
           <Skills skill='Npm' />
-          <Skills skill='Figma' />
+          <Skills skill='Postman' />
+          <Skills skill='Docker' />
+        
         </div>
       </motion.div>
     </>
