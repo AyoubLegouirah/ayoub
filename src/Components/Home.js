@@ -62,8 +62,7 @@ const Home = () => {
               Passionné par l'<b>apprentissage continu</b> et l'
               <b>exploration de nouvelles technologies,</b> je suis toujours
               prêt à relever des défis stimulants et à contribuer de manière
-              significative à des projets innovants.
-              <CiCoffeeCup style={{ scale: "1.5", rotate: "15deg" }} />
+              significative à des projets innovants   <CiCoffeeCup style={{ scale: "1.5", rotate: "15deg" }} /> .
             </p>
           </div>
           <Tilt>

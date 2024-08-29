@@ -35,7 +35,7 @@ const About = () => {
       </motion.div>
 
       <motion.div initial="hidden" animate="visible" variants={fadeRight}>
-        <h1 className='SkillsHeading'>Framework et langages </h1>
+        <h1 className='SkillsHeading'>Compétences Techniques </h1>
         <div className='skills'>
           {/* Langages de programmation */}
           <Skills skill='HTML' />
